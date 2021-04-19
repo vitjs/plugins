@@ -1,0 +1,31 @@
+{
+  "name": "@vitjs/plugin-concent",
+  "version": "0.1.0",
+  "description": "🚀 Make concent better to use in runtime.",
+  "keywords": [
+    "concent",
+    "vite",
+    "vite-plugin"
+  ],
+  "author": "theprimone <yuns.xie@qq.com>",
+  "homepage": "https://github.com/vitjs/plugins#readme",
+  "license": "MIT",
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npm.taobao.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitjs/plugins.git"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && tsc",
+    "dev": "rm -rf ./dist && tsc -w"
+  },
+  "bugs": {
+    "url": "https://github.com/vitjs/plugins/issues"
+  }
+}
